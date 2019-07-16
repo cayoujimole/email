@@ -41,7 +41,7 @@ public class TestContorller {
     protected RedisTemplate redisTemplate;
 
     /**
-     * 提交代码
+     * 提交代码dev
      * @return
      */
     @RequestMapping("/getRedis")
