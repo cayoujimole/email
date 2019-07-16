@@ -40,6 +40,10 @@ public class TestContorller {
     @Autowired
     protected RedisTemplate redisTemplate;
 
+    /**
+     * 提交代码
+     * @return
+     */
     @RequestMapping("/getRedis")
     public Object getRedis() {
         logger.info("xxxxxxxxxxxxxxxxxxxxxxxxgetRedis");
