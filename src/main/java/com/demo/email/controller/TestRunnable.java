@@ -9,6 +9,11 @@ public class TestRunnable implements Runnable {
         }
     }
 
+    /**
+     * dev
+     * @param args
+     * @throws InterruptedException
+     */
     public static void main(String[] args) throws InterruptedException {
         Runnable tr = new TestRunnable();
         Thread t1 = new Thread(tr);
