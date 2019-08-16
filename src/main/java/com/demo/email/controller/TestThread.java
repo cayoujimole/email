@@ -15,6 +15,11 @@ public class TestThread extends Thread {
 
     }
 
+    /**
+     * 写好多注释哦
+     * @param args
+     * @throws InterruptedException
+     */
     public static void main(String[] args) throws InterruptedException {
 //        Thread t1 = new Thread(tt);
 //        Thread t2 = new Thread(tt);
@@ -30,6 +35,7 @@ public class TestThread extends Thread {
         System.out.println(s1 == s2);
         s2.intern();
         System.out.println(s1 == s2);
+
     }
 
 }
